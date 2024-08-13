@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Query</title>
+    <style>
+        body {
+            width: 100vw;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font: 3em "arial";
+            text-align: center;
+            overflow: hidden;
+        }
+
+        @media (max-width: 768px) and (orientation=portrait) {
+            body {
+                background-color: aqua;
+            }
+        }
+
+        @media (max-width: 1024px) and (orientation=landscape) {
+            body {
+                background-color: rgb(0, 255, 42);
+            }
+        }
+    </style>
+</head>
+<body>
+    <p>Testando medias queries</p>
+</body>
+</html>
