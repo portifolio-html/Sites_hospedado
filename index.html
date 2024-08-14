@@ -6,6 +6,8 @@
     <title>Media Query</title>
     <style>
         body {
+            margin: 0;
+            padding: 0;
             width: 100vw;
             height: 100vh;
             display: flex;
@@ -19,7 +21,7 @@
 
         @media (max-width: 500px) and (orientation=portrait) {
             body {
-                background: linear-gradient(to bottom,rgb(211, 239, 244), rgb(187, 246, 187));
+                background: linear-gradient(to bottom,rgba(215, 92, 249, 0.504), rgba(202, 255, 117, 0.515));
             }
 
             .img-fundo {
@@ -28,6 +30,7 @@
                 position: absolute;
                 top: 0;
                 left: 0;
+                overflow: hidden;
             }
 
             #img1 {
