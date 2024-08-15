@@ -22,7 +22,7 @@ body {
     overflow-x: hidden;
 }
 
-@media (max-width: 426px) and (orientation=portrait) {
+@media (max-width:768px) and (orientation=portrait) {
     body {
         background: linear-gradient(to top, rgb(246, 255, 245), rgb(246, 250, 193)); 
     }
@@ -35,10 +35,10 @@ body {
     }
 
     #img1 {
-        width: 620px;
+        width: 870px;
         position: relative;
-        bottom: -180px;
-        left: -160px;
+        bottom: -280px;
+        left: -30px;
         transform: rotate(-10deg);
         z-index: 1;
     }
@@ -74,16 +74,16 @@ body {
     }
 
     #texto1 {
-        font-size: 1.5em;
+        font-size: 2.5em;
     }
 
     #texto2 {
-        font-size: 4em;
+        font-size: 7em;
         
     }
 
     #texto3 {
-        font-size: 1.2em;
+        font-size: 2em;
         width: 80%;
         background-color: rgba(255, 255, 255, 0.444);
         padding: 10px;
@@ -101,9 +101,9 @@ body {
 
     input {
         width: 80%;
-        height: 40px;
+        height: 70px;
         border-radius: 50px;
-        font-size: 1.5em;
+        font-size: 2.5em;
         cursor: pointer;
     }
 
